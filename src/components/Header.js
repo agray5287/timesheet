@@ -1,8 +1,11 @@
+//import { HomePage } from "./Content";
+import { useState } from "react";
+
 export function Header() {
   return (
-    <div>
+    <div class="flex items-center">
       <head>
-        <title>Timesheet</title>
+        <title>Volkert Timesheet</title>
       </head>
       <header class="flex items-center">
         <img
@@ -10,27 +13,11 @@ export function Header() {
           alt="Logo Cannot Be Found"
           class="top-0 left-0 w-32 h-16 mr-5"
         />
-        <h1 class="ml-5 cursor-pointer accent-white">Home</h1>
-        <h1 class="ml-5 cursor-pointer">Enter Time</h1>
-        <h1 class="ml-5 cursor-pointer">Weekly Summary</h1>
-        <h1 class="ml-5 cursor-pointer">Statistics</h1>
+        <button class="ml-5">Home</button>
+        <button class="ml-5">Enter Time</button>
+        <button class="ml-5">Weekly Summary</button>
+        <button class="ml-5">Statistics</button>
       </header>
     </div>
   );
 };
-
-
-function test() {
-  
-};
-/*
-export function Links() {
-  <div>
-    <span>Home</span>
-    <span>Enter Time</span>
-    <span>Weekly Summary</span>
-    <span>Entries</span>
-  </div>
-
-};
-*/
