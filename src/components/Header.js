@@ -8,7 +8,7 @@ const shortDate = currentDate.toLocaleDateString('en-US', options);
 
 export function Header() {
   return (
-    <div class="flex items-center justify-between">
+    <div class="bg-blue-950/45 flex items-center justify-between">
       <head>
         <title>Volkert Timesheet</title>
       </head>
@@ -22,7 +22,6 @@ export function Header() {
         <Link href="/enter_time" class="ml-5">Enter Time</ Link>
         <Link href="/weekly_summary" class="ml-5">Weekly Summary</ Link>
         <Link href="/statistics" class="ml-5 mr-5">Statistics</ Link>
-        
       </header>
       <span class="relative mr-5">{shortDate}</span>
     </div>
