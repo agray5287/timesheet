@@ -8,16 +8,18 @@ const shortDate = currentDate.toLocaleDateString('en-US', options);
 
 export function Header() {
   return (
-    <div class="bg-blue-950/45 flex items-center justify-between">
+    <div class="bg-[#02325d] flex items-center justify-between">
       <head>
         <title>Volkert Timesheet</title>
       </head>
       <header class="flex items-center">
+        <div class="bg-white rounded-full m-3 flex justify-center">
         <img
           src="https://apps.volkert.com/images/Logo.jpg"
           alt="Logo Cannot Be Found"
-          class="top-0 left-0 w-32 h-16 mr-5"
+          class="w-32 h-16 ml-3 mr-3 mt-1 mb-1 rounded-xl"
         />
+        </div>
         <Link href="/" class="ml-5">Home</ Link>
         <Link href="/enter_time" class="ml-5">Enter Time</ Link>
         <Link href="/weekly_summary" class="ml-5">Weekly Summary</ Link>
