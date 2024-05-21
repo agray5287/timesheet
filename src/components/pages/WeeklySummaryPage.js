@@ -1,6 +1,6 @@
 export function WeeklySummaryPage() {
   return(
-  <div>
+  <div class="text-black">
     Weekly Summary Page
   </div>
   );

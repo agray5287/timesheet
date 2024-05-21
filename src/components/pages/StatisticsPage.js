@@ -1,6 +1,6 @@
 export function StatisticsPage() {
     return(
-    <div>
+    <div class="text-black">
       Statistics Page
     </div>
     );

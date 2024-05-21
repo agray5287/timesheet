@@ -1,12 +1,13 @@
 "use client";
 import { Header } from "@/components/Header";
-import { WeeklySummaryPage } from "@/components/pages/WeeklySummaryPage";
+import { NewAccountPage } from "@/components/pages/NewAccountPage";
 
-export default function WeeklySummary() {
+
+export default function NewAccount() {
     return (
       <div class="bg-gray-100 h-screen">
         <Header />
-        <WeeklySummaryPage />
+        <NewAccountPage />
       </div>
     );
   };

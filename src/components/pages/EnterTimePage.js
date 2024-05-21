@@ -1,6 +1,6 @@
 export function EnterTimePage() {
     return(
-        <div>
+        <div class="text-black">
             Enter Time Page
         </div>
     );

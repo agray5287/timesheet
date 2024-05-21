@@ -1,4 +1,5 @@
 "use client";
+import { HeaderBlank } from "@/components/Header_Blank";
 import { Header } from "@/components/Header";
 import { HomePage } from "@/components/pages/HomePage";
 
