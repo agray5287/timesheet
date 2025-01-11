@@ -1,5 +1,6 @@
 const proj1 = "Bent Creek Extension Study"
 const projNum1 = "T35-180090"
+import { DropDown } from "@/components/Menu_Button";
 
 export function DemoPage() {
     return(
@@ -15,16 +16,16 @@ export function DemoPage() {
                 <th class="border border-black px-1 py-1">Thursday</th>
                 <th class="border border-black px-1 py-1">Friday</th>
                 <th class="border border-black px-1 py-1">Total</th>
-                
                 </tr>
                 </thead>
                 <tbody>
             <tr>
-                <td class="text-left border border-black hover:bg-gray-400">{proj1}</td>
-                <td class="text-center border border-black hover:bg-gray-400">{projNum1}</td>
+                <td class="text-left border border-black"><DropDown /></td>
+                <td class="text-center border border-black">{projNum1}</td>
             </tr>
             </tbody>
             </table>
+            
         </div>
     );
 };
