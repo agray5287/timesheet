@@ -20,8 +20,8 @@ export function DemoPage() {
                 </thead>
                 <tbody>
             <tr>
-                <td class="text-left border border-black"><DropDown /></td>
-                <td class="text-center border border-black">{projNum1}</td>
+                <td class="text-left"><DropDown /></td>
+                <td class="text-center">{projNum1}</td>
             </tr>
             </tbody>
             </table>

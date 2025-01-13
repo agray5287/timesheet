@@ -23,11 +23,9 @@ export function Header() {
             class="w-32 h-16 ml-3 mr-3 mt-1 mb-1 rounded-xl text-black"
           />
         </div>
-        <div class="bg-white rounded-full ml-3">
-          <Link href="/" class="ml-1 mr-1 text-black">
+          <Link href="/" class="ml-5">
             Home
           </Link>
-        </div>
         <Link href="/enter_time" class="ml-5">
           Enter Time
         </Link>
