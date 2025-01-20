@@ -1,6 +1,4 @@
-const proj1 = "Bent Creek"
-const proj2 = "West Alabama"
-const proj3 = "Cahaba River Road"
+const projects = ["Bent Creek", "West Alabama", "Cahaba River Road"]
 
 function renderOptions() {
   return(
