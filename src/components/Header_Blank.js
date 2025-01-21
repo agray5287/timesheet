@@ -1,6 +1,7 @@
 //import { HomePage } from "./Content";
 import { useState } from "react";
 import Link from "next/link";
+import Image from 'next/image';
 
 const currentDate = new Date();
 const options = { year: "numeric", month: "2-digit", day: "2-digit" };
@@ -15,7 +16,8 @@ export function HeaderBlank() {
       <header class="flex items-center">
         <div class="bg-white rounded-full m-3 flex justify-center">
           <img
-            src="https://apps.volkert.com/images/Logo.jpg"
+            //src="https://apps.volkert.com/images/Logo.jpg"
+            src="/images/Kolkert_Logo.png"
             alt="Logo Cannot Be Found"
             class="w-32 h-16 ml-3 mr-3 mt-1 mb-1 rounded-xl"
           />
