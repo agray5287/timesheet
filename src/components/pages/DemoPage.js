@@ -34,7 +34,7 @@ export function DemoPage() {
                     </tr>
                 </tbody>
             </table>
-
+        
         </div>
     );
 };
