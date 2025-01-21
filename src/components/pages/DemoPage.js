@@ -1,7 +1,7 @@
 const proj1 = "Bent Creek Extension Study"
 const projNum1 = "T35-180090"
 //import { DropDown } from "@/components/Menu_Button";  put this back if need be: <DropDown />
-import { dropdown_button } from "@/components/dropdown/dropdown";
+import Dropdown from "../Dropdown/Dropdown"
 
 export function DemoPage() {
     return(
@@ -21,11 +21,20 @@ export function DemoPage() {
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="text-left"><dropdown_button /></td>
+                        <td class="text-left">
+                            <div className="App">
+                                <div className="content">
+                                    <Dropdown
+                                    buttonText="Dropdown button"
+                                    content={<p>Test</p>}/>
+                                </div>
+                            </div>
+                        </td>
                         <td class="text-center">{projNum1}</td>
                     </tr>
                 </tbody>
             </table>
+
         </div>
     );
 };

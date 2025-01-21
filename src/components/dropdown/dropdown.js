@@ -1,9 +1,12 @@
 import React from "react";
-//Im lost
-//https://www.youtube.com/watch?v=q6HevBxsPUM&list=WL&t=683s
+import DropdownButton from "../DropdownButton/DropdownButton";
+import DropdownContent from "../DropdownContent/DropdownContent";
 
-export function dropdown_button() {
-    return (
-    <div>Dropdown</div>
-    );
+//https://youtu.be/q6HevBxsPUM?si=KEfYmeHE5kZmqu1s&t=315
+
+
+const Dropdown = () => {
+    return <div><DropdownButton/><DropdownContent/></div>;
 };
+
+export default Dropdown;
