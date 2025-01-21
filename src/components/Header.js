@@ -39,4 +39,3 @@ export function Header() {
       <span class="relative mr-5">{shortDate}</span>
     </div>
   );
-}
