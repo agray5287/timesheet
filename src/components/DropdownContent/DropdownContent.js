@@ -1,7 +1,7 @@
 import "./DropdownContent.css"
 
-const DropdownContent = ({children}) => {
-    return <div className="dropdown-content">Test{children}</div>;
+const DropdownContent = ({children, open}) => {
+    return <div className={`dropdown-content ${open ? "content-open" : null}`}>{children}</div>;
 };
 
 export default DropdownContent;

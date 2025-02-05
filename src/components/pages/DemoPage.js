@@ -1,7 +1,9 @@
 const proj1 = "Bent Creek Extension Study"
 const projNum1 = "T35-180090"
+const items = ["Bent Creek", "West Alabama", "Cahaba River Road"]
 //import { DropDown } from "@/components/Menu_Button";  put this back if need be: <DropDown />
 import Dropdown from "../Dropdown/Dropdown"
+import DropdownItem from "../DropdownItem/DropdownItem"
 
 export function DemoPage() {
     return(
@@ -24,13 +26,17 @@ export function DemoPage() {
                         <td class="text-left">
                             <div className="App">
                                 <div className="content">
-                                    <Dropdown
-                                    buttonText="Dropdown button"
-                                    content={<p>Test</p>}/>
+                                    <Dropdown buttonText="Select Project"
+                                    content={<>
+                                    {
+                                        items.map(item => <DropdownItem 
+                                        key={item}>{`${item}`}</
+                                        DropdownItem>)
+                                    }</>} />
                                 </div>
                             </div>
                         </td>
-                        <td class="text-center">{projNum1}</td>
+                        <td class="text-center"></td>
                     </tr>
                 </tbody>
             </table>
