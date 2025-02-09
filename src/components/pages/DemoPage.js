@@ -2,7 +2,7 @@ const proj1 = "Bent Creek Extension Study"
 const projNum1 = "T35-180090"
 const items = ["Bent Creek", "West Alabama", "Cahaba River Road", "Test 1", "Test 2", "Test 3", "Test 4"]
 //import { DropDown } from "@/components/Menu_Button";  put this back if need be: <DropDown />
-import Dropdown from "../Dropdown/Dropdown"
+import Dropdown from "../dropdown/dropdown"
 import DropdownItem from "../DropdownItem/DropdownItem"
 
 export function DemoPage() {
