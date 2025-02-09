@@ -14,4 +14,6 @@ const DropdownContent = forwardRef((props, ref) => {
     );
 });
 
+DropdownContent.displayName = "DropdownContent";
+
 export default DropdownContent;
